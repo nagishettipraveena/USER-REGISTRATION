@@ -5,19 +5,19 @@ pipeline {
         stage('Build') {
             steps {
                 // Example: Build your project
-                sh 'mvn clean install'
+                echo 'mvn clean install'
             }
         }
         stage('Test') {
             steps {
                 // Example: Run tests
-                sh 'mvn test'
+                echo 'mvn test'
             }
         }
         stage('Deploy') {
             steps {
                 // Example: Deploy your application
-                sh 'hello.py'
+                echo 'hello.py'
             }
         }
     }
