@@ -1,1 +1,3 @@
-print("Pipeline1 program")
+username = input("Enter username: ")
+password = input("Enter password: ")
+# Save to file
